@@ -150,7 +150,7 @@ Mini pop-ups share interesting tips, facts, or educational messages after gamepl
 
 
 # 1. Clone the repo
-git clone https://github.com/your-username/gameverse.git
+git clone https://github.com/Yuraj1247/Code_Circuit_2nd-EverCode
 
 # 2. Install dependencies
 npm install
