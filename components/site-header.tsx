@@ -55,11 +55,11 @@ export function SiteHeader({ permissionStatus, onPermissionChange }: SiteHeaderP
         scrolled && "shadow-sm",
       )}
     >
-      <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2 md:gap-6">
+      <div className=" container flex h-16 items-center justify-between">
+        <div className=" flex items-center gap-2 md:gap-6">
           <Link href="/" className="flex items-center space-x-2">
             <Gamepad2 className="h-6 w-6 text-primary" />
-            <span className="hidden font-bold sm:inline-block">GameVerse</span>
+            <span className=" font-bold sm:inline-block">GameVerse</span>
           </Link>
           <nav className="hidden md:flex md:gap-6">
             {navItems.map((item, index) => (
@@ -110,7 +110,7 @@ export function SiteHeader({ permissionStatus, onPermissionChange }: SiteHeaderP
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
               className="fixed inset-y-0 left-0 z-50 w-3/4 max-w-xs bg-background shadow-xl md:hidden"
             >
-              <div className="flex h-16 items-center justify-between border-b px-6">
+              <div className=" bg-purple-800 flex h-16 items-center justify-between border-b px-6">
                 <Link href="/" className="flex items-center space-x-2">
                   <Gamepad2 className="h-6 w-6 text-primary" />
                   <span className="font-bold">GameVerse</span>
@@ -132,7 +132,7 @@ function ScrollableNavigation() {
   const pathname = usePathname()
 
   return (
-    <div className="h-[calc(100vh-4rem)] overflow-y-auto pb-8">
+    <div className="h-[calc(100vh-4rem)] bg-purple-700 overflow-y-auto pb-8">
       <nav className="space-y-1 p-4">
         {mobileNavItems.map((item, index) => (
           <Link
